@@ -1,0 +1,9 @@
+Inheritance: Inheritance er når en class kan inherit eller arve fra en anden class. Det fungere på den måde at man
+extender fra en class og den class man extender fra er så superclass. Classen som extender bliver kladt for subclass.
+Dette kan også kaldes for specialization og generalization, her er subclassen en specialization af superclassen og
+superclassen er altså en generalization af en subclasse eller flere. Inheritance er en effektiv måde at dele kode mellem
+2 classer som har samme træk. På den måde kan man undgå at få en overflødig kode, hvilket betyder at den samme kode ikke
+behøves at skrives flere gange. Override er en mekanisme som bruges i inhertitance. Dette bruges når den samme metode
+bliver brugt i superclassen og i subclassen. Metoden i superclassen bliver så overskevet og det er metoden i subclassen
+som Java kører efter. Hvis man derimod stadig har tænkt sig at bruge metoden i superclassen kan man bruge metoden
+"super.". I Java er det ikke muligt at inherit/arve fra mere end en superclass for hver subclass.
