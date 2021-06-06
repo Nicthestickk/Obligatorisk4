@@ -1,5 +1,3 @@
-package ObligatoriskeOpgaver;
-
 public class Car {
     //This class is gonna be used as the superclass
     //We have some methods that we want to use in other similar classes
